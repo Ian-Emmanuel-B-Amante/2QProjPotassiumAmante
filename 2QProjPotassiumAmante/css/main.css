@@ -1,0 +1,109 @@
+*{
+	box-sizing: border-box;
+}
+::selection{
+	color: yellow;
+	background-color: indigo;
+}
+.title{
+	border: 5px double black;
+}
+#container {
+	width: 100%;
+	padding: 10px 0px 30px 10px;
+	background: #8860D0;
+}
+.navigation{
+	border: 2px solid black;
+	color: black;
+	padding: 10px;
+	margin: 1px;
+	font-size: 30px;
+	background-color: #84CEEB;
+	font-family: Arial;
+	border-radius: 5px 20px;
+	text-decoration: none;
+}	
+a.navigation:visited{
+	background-color: #95DFFC;
+}	
+a.navigation:hover{
+	background-color: rgb(37,69,82);
+	color: white;
+}
+a.navigation:active{
+	color: cyan;
+	background-color: rgb(57,89,100);
+}
+.current{
+	border: 5px solid #9A1750;
+	color: black;
+	padding: 10px;
+	margin: 1px;
+	font-size: 40px;
+	background-color: #84CEEB;
+	font-family: Arial;
+	border-radius: 10px 40px;
+	font-style: bold; 
+}
+body{
+	background-color: #5AB9EA;
+}
+h3, h1{
+	text-align: center;
+}
+section{
+	width: 75%;
+	border: 2px dashed black;
+	background-color: #C1CBE4;
+}
+.main{
+	border: 2px solid blue;
+	background-color: white;
+	padding: 15px;
+	margin: 10px;
+	overflow: auto;
+	font-family: "Bookman Old Style", "Times New Roman", Arial;
+}
+.About{
+	float: right;
+	border: 1px solid black;
+	padding: 15px;
+	margin: 10px;
+	width: 24%;
+	text-align: center;
+	position: absolute;
+	top: 45%;
+	right: 0%;
+	background-color: #5680E9;
+	background-repeat: no-repeat;
+	font-family: Calibri;
+}
+article video{
+	display: block;
+	margin: auto;
+}
+.top{
+	text-align: center;
+	text-decoration: none;
+	font-size: 20px;
+}
+.copyright{
+	
+}
+.references{
+	color: white;
+	font-size: 30px;
+	text-align: left;
+}
+.references a{
+	color: #8EF3FE;
+	text-decoration: none;
+	font-size: 20px;
+}
+.cr{
+	text-align: center;
+}
+.socmed{
+	float: right;
+}
